@@ -1,0 +1,8 @@
+package com.mivas.templates.model
+
+data class Person(val firstName: String,
+                  val lastName: String,
+                  val age: Int) {
+
+    fun getDisplayName() = "$firstName $lastName"
+}
